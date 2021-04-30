@@ -1,4 +1,4 @@
-package com.sg.spafka.messages;
+package com.sg.spark.messages;
 
 public class ProducedKafkaMessage {
     public Long getKey() {
