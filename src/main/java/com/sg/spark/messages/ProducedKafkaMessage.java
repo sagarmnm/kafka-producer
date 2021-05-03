@@ -1,5 +1,8 @@
 package com.sg.spark.messages;
 
+import lombok.ToString;
+
+@ToString
 public class ProducedKafkaMessage {
     public Long getKey() {
         return key;
