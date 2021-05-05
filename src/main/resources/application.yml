@@ -3,7 +3,7 @@ spring:
     active: local
   kafka:
     producer:
-      bootstrap-servers: broker:29092
-      broker-list: broker:29092
+      bootstrap-servers: confluent-kafka-cluster1-cp-kafka:9092
+      broker-list: confluent-kafka-cluster1-cp-kafka:9092
       key-serializer: org.apache.kafka.common.serialization.LongSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
