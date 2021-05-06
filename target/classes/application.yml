@@ -1,9 +1,0 @@
-spring:
-  profiles:
-    active: local
-  kafka:
-    producer:
-      bootstrap-servers: broker:29092
-      broker-list: broker:29092
-      key-serializer: org.apache.kafka.common.serialization.LongSerializer
-      value-serializer: org.apache.kafka.common.serialization.StringSerializer

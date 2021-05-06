@@ -1,5 +1,0 @@
-com\sg\spark\controller\RestKafkaController.class
-com\sg\spark\messages\ProducedKafkaMessage.class
-com\sg\spark\utils\SGKafkaProducer$1.class
-com\sg\spark\KafkaProducerApplication.class
-com\sg\spark\utils\SGKafkaProducer.class
